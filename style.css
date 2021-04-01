@@ -1,0 +1,267 @@
+.main .main-content .text-and-btn > p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.main .main-content .text-and-btn > h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.main .main-content .text-and-btn > button {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+}
+
+.main {
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  background-attachment: fixed;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: url(bg-desktop.svg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    background-image: url(bg-mobile.svg);
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .main-logo {
+  width: 80%;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main-logo .logo {
+  max-width: 264px;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .main .main-logo .logo {
+    width: 60%;
+  }
+}
+
+.main .main-content {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main .main-content .illustration {
+  max-width: 709px;
+  width: 47.5%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .main .main-content .illustration {
+    width: 100%;
+  }
+}
+
+.main .main-content .text-and-btn {
+  width: 47.5%;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .main .main-content .text-and-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.main .main-content .text-and-btn > h2 {
+  font-size: 2.6rem;
+  line-height: .8em;
+}
+
+@media screen and (max-width: 1024px) {
+  .main .main-content .text-and-btn > h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main .main-content .text-and-btn > h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main .main-content .text-and-btn > h2 {
+    font-size: 1.4rem;
+  }
+}
+
+.main .main-content .text-and-btn > p {
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main .main-content .text-and-btn > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main .main-content .text-and-btn > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main .main-content .text-and-btn > p {
+    font-size: 1rem;
+  }
+}
+
+.main .main-content .text-and-btn > button {
+  font-size: 1.2rem;
+  padding: 20px 80px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  color: #674baf;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .main .main-content .text-and-btn > button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main .main-content .text-and-btn > button {
+    font-size: 1.1rem;
+    padding: 15px 0;
+  }
+}
+
+.main .main-content .text-and-btn > button:hover {
+  color: #fff;
+  background-color: #e882e8;
+}
+
+.main .main-links {
+  width: 80%;
+  padding: 20px 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  .main .main-links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px 0;
+  }
+}
+
+.main .main-links > a {
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0 20px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.main .main-links > a .fa-facebook-f {
+  font-size: 1.6em;
+  padding: 10px 1px;
+}
+
+.main .main-links > a .fa-twitter {
+  font-size: 1.7em;
+  padding: 9px 0;
+  padding-left: 1px;
+}
+
+.main .main-links > a .fa-instagram {
+  font-size: 1.9em;
+  padding: 8px 1px;
+}
+
+.main .main-links > a:hover {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+/*# sourceMappingURL=style.css.map */
